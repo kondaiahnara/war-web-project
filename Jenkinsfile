@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     environment {
-        TOMCAT_SERVER = "16.171.170.150"
+        TOMCAT_SERVER = "16.171.136.78"
         TOMCAT_USER = "ubuntu"
-        NEXUS_URL = "16.171.134.209:8081"
+        NEXUS_URL = "13.61.4.41:8081"
         NEXUS_REPOSITORY = "maven-releases"
         NEXUS_CREDENTIAL_ID = "nexus_creds"
         SSH_KEY_PATH = "/var/lib/jenkins/.ssh/jenkins_key"
-        SONAR_HOST_URL = "http://13.60.192.43:9000"
+        SONAR_HOST_URL = "http://51.21.194.247:9000"
         SONAR_CREDENTIAL_ID = "sonar_creds"  // Replace with your SonarQube credential ID
     }
 
